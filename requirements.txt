@@ -2,3 +2,4 @@ flask
 marshmallow
 python-dotenv
 waitress
+mysql-connector-python
