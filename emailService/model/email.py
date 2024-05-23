@@ -18,4 +18,4 @@ class EmailSchema(Schema):
     email = fields.Str(load_default="defaultEmail@example.com")
     name = fields.Str(load_default="")
     created_at = fields.Date()
-    message = fields.Str()
+    message = fields.Str(load_default="")
